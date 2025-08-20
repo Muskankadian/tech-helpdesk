@@ -24,10 +24,15 @@ It helps organizations manage IT issues efficiently through ticket creation, tra
 ## 📂 Project Structure
 tech-helpdesk/
 │-- app.py # Main Flask application
+
 │-- models.py # Database models (User, Tickets, etc.)
+
 │-- templates/ # HTML templates (login, signup, about, etc.)
+
 │-- static/ # CSS, JS, images
+
 │-- requirements.txt # Python dependencies
+
 │-- README.md # Project documentation
 
 
