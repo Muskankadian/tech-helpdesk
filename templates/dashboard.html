@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="dashboard">
+    <h2>Raise a Ticket</h2>
+    <form method="POST" class="ticket-form">
+        <input type="text" name="title" placeholder="Issue Title" required>
+        <textarea name="description" placeholder="Describe your issue" required></textarea>
+        <button type="submit">Submit Ticket</button>
+    </form>
+
+    <h3>Your Tickets</h3>
+    <div class="ticket-list">
+        <!-- Tickets will be displayed here -->
+        <div class="ticket-card">
+            <h4>Sample Issue Title</h4>
+            <p>Status: Open</p>
+            <p>Description: This is a sample ticket description.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

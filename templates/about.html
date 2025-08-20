@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="about-page">
+    <div class="about-container">
+        <h2>About Tech HelpDesk</h2>
+        <p class="intro-text">
+            Tech HelpDesk is a modern IT ticketing and support platform designed to streamline issue management, 
+            improve communication, and ensure quick resolution of technical problems.
+        </p>
+
+        <div class="about-sections">
+            <div class="about-card">
+                <h3>🚀 Our Mission</h3>
+                <p>
+                    To simplify IT support and empower organizations with efficient tools for 
+                    managing, tracking, and resolving technical challenges with ease.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>⚡ Key Features</h3>
+                <ul>
+                    <li>Fast ticket creation and resolution</li>
+                    <li>Real-time progress tracking</li>
+                    <li>Centralized knowledge base for quick solutions</li>
+                    <li>User-friendly interface for all skill levels</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <h3>🌟 Why Choose Us?</h3>
+                <p>
+                    We focus on delivering reliability, transparency, and speed. 
+                    Tech HelpDesk adapts to your workflow, making IT support seamless 
+                    and reducing downtime across your organization.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.about-page {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-page h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-page .intro-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.about-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.about-card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.about-card h3 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.about-card p, .about-card ul {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.about-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+</style>
+{% endblock %}
