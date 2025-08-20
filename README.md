@@ -1,5 +1,3 @@
-# projecthcl
-
 Tech HelpDesk
 
 Tech HelpDesk is a modern IT ticketing and support system built with **Flask** and **MySQL**.  
@@ -23,6 +21,7 @@ It helps organizations manage IT issues efficiently through ticket creation, tra
 
 ## 📂 Project Structure
 tech-helpdesk/
+
 │-- app.py # Main Flask application
 
 │-- models.py # Database models (User, Tickets, etc.)
@@ -35,4 +34,11 @@ tech-helpdesk/
 
 │-- README.md # Project documentation
 
+📜 License
+
+This project is licensed under the MIT License.
+
+🔗 Connect
+
+👩‍💻 Developed by Your Name
 
